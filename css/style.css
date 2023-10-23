@@ -95,3 +95,42 @@ h3 {
    
 }
 
+.footer {
+    background-color: #002A51;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.footer-content {
+    background-color: #002A51;
+    padding: 1em;
+    flex: 1;
+  }
+
+.footer-text {
+    font-size: 22px;
+    margin: 0;
+  }
+
+.footer-social {
+    text-align: right;
+  }
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+
+.footer-social li {
+    display: inline;
+  }
+
+.social-icon {
+    width: 48px;
+    height: auto;
+}
